@@ -4201,7 +4201,7 @@ kubernetes01:
       kubeconfigFile: /home/ubuntu/.hal/k8spin/staging/dependencies/1031763043-config
       oAuthScopes: []
       onlySpinnakerManaged: true
-kubernetes2:
+kubernetes02:
   enabled: true
   accounts:
     - name: k8s-accv1-0
