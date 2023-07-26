@@ -2,7 +2,7 @@ namePrefix: production-
 commonAnnotations:
   note: Hello, I am production!
 resources:
-- ../base
+- ../staging/base
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 labels:
