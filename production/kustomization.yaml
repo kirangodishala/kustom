@@ -1,8 +1,8 @@
 namePrefix: production-
 commonAnnotations:
-  note: Hello, I am production5!
+  note: Hello, I am production6!
 resources:
-- ../staging/base
+- base
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 labels:
