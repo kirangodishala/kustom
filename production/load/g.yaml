@@ -1,4 +1,4 @@
-kubernetes1:
+kubernetes01:
   enabled: true
   accounts:
     - name: k8s-accv1-0
