@@ -1,6 +1,6 @@
 namePrefix: staging-
 commonAnnotations:
-  note: Hello, I am staging6!
+  note: Hello, I am staging7!
 resources:
 - base
 apiVersion: kustomize.config.k8s.io/v1beta1
