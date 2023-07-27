@@ -1,0 +1,4 @@
+kustom:
+  k8s2:
+    test:
+      enabled: true

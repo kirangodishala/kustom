@@ -1,0 +1,4 @@
+kustom:
+  prod:
+    test:
+      enabled: true

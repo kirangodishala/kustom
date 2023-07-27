@@ -1,0 +1,4 @@
+kustom:
+  scan2:
+    test:
+      enabled: true
