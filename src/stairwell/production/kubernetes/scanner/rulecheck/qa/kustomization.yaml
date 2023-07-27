@@ -1,14 +1,14 @@
-namePrefix: staging-
+namePrefix: qa-
 commonAnnotations:
-  note: Hello, I am staging 9!
+  note: Hello, I am qa!
 resources:
-- base
+- ../base
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 labels:
 - includeSelectors: true
   pairs:
     org: acmeCorporation
-    variant: staging
+    variant: qa
 patches:
 - path: map.yaml
